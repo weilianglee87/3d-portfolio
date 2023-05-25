@@ -123,10 +123,13 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Nov 2022 - May 2023",
     points: [
-      "Developed a simple realtime chat application made using React JS, a JavaScript library for building user interfaces by Facebook, Node JS, Express JS, Socket.io, and MongoDB",
-      "Collaborating with other developers on creating a rating and review website for computer desk setups using MongoDB, Express, React and Node ( https://swipe-setups.netlify.app/ )",
-      "Developed a frontend weather app that utilizes the OpenWeatherMap API to fetch and display weather data to users ( https://react-weather-app-two-kappa.vercel.app/ )",
-      "Developed a typing game that challenges players with mini typing tests, improving their keyboarding speed and accuracy ( https://weilianglee87.github.io/simple-typing-game/ )",
+      "Skilled in developing front-end web applications using React and other modern JavaScript frameworks",
+      "Proficient in creating full-stack applications using React with Next.js, Python with Django, and Express with Node.js",
+      "Experienced in building secure applications by utilizing design patterns like MVC and REST",
+      "Proficient in version control using Git and GitHub for efficient code management",
+      "Modelling & storing data using SQL and NoSQL databases",
+      "Capable of integrating third-party APIs to enhance web applications with additional functionalities",
+      "Experienced in working on both group and solo projects, adapting to different collaborative environments and taking ownership of tasks",
     ],
   },
   {
