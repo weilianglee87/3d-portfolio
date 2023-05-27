@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { TypeAnimation } from "react-type-animation";
+
 const Hero = () => {
   return (
     <section className='relative w-full h-screen mx-auto'>
@@ -17,7 +19,21 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915eff]'>Wei Liang Lee</span>
           </h1>
           <p className={`${styles.heroSubText}mt-2 text-white-100`}>
-            I am a Full Stack Developer
+            {/* I am a Full Stack Developer */}
+            <span>I am a</span>
+            <TypeAnimation
+              cursor={false} // omit the default css typing animation class, otherwise we won't be able to manipulate it manually
+              className={"text-[#915eff]"} // pass custom cursor className that will be manipulated (defaults below)
+              sequence={[
+                " Frontend Developer",
+                500,
+                " Backend Developer",
+                500,
+                " Full Stack Developer",
+                500,
+              ]}
+              repeat={Infinity}
+            />
           </p>
         </div>
       </div>
